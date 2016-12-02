@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Seedling</title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="navbar-header">
+      <a href="/" class="navbar-brand">
+        <i class="glyphicon glyphicon-leaf"></i>
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li>
+        <a href="/users">
+          <i class="glyphicon glyphicon-transfer"></i>
+          <p>Seed App</p>
+        </a>
+      </li>
+      <li>
+        <a href="/users">
+          <i class="glyphicon glyphicon-user"></i>
+          <p>Users</p>
+        </a>
+      </li>
+      <li>
+        <a href="/users">
+          <i class="glyphicon glyphicon-briefcase"></i>
+          <p>Companies</p>
+        </a>
+      </li>
+      <li>
+        <a href="/users">
+          <i class="glyphicon glyphicon-comment"></i>
+          <p>Conversations</p>
+        </a>
+      </li>
+      <li>
+        <a href="/users">
+          <i class="glyphicon glyphicon-calendar"></i>
+          <p>Events</p>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <%= yield %>
+  </main>
+  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+</body>
+</html>
